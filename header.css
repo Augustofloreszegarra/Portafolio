@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    align-items: center;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    font-size: .75rem;
+    background: #333;
+}
+
+/* logo+nombre */
+.header__nombre {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+
+.header__nombre img {
+    height: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    color: #fafafa;
+}
+
+.header__list {
+    display: block;
+}
+
+.header__list__item {
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-right: .7rem;
+    margin-bottom: .7rem;
+    margin-left: .7rem;
+    font-size: .75rem;
+    padding-top: .75rem;
+}
+
+.header__list__item a {
+    text-decoration: none;
+}
+
+.header__list__item.hidden {
+    display: none;
+}
