@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <titulo>Portafolio</titulo>
+    <title>Portafolio</title>
     <meta name="keywords" content="Programador jr, Programador web, Frint End">
     <meta name="description" content="Portafolio Augusto Flores Zegarra">
     <meta name="autor" content="https://github.com/Augustofloreszegarra">
     <meta name="robots" content="index">
     <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./bases.css">
+    <link rel="stylesheet" href="./header.css">
 </head>
 <body>
-    <header class="head container">
-        <div>
+    <!-- Menú principal -->
+    <header class="header container">
+        <div class="header__nombre">
             <img src="./assets/img/vector.png">
-            <h3 class="head__titulo">Augusto Desarrollador Frontend</h3>
+            <h3 class="header__titulo">Augusto Dev Frontend</h3>
         </div>
         <nav>
-            <ul class="head__list">
-                <li class="head__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                <li class="head__list__item"><a href="#skills">Skills</a></li>
-                <li class="head__list__item"><a href="#hobbies">Hobbies</a></li>
-                <li class="head__list__item"><a href="#formacion">Formación</a></li>
-                <li class="head__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="head__list__item"><a href="#contacto">Contacto@fulana.com</a></li>
+            <ul class="header__list">
+                <li class="header__list__item hidden"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="header__list__item hidden"><a href="#skills">Skills</a></li>
+                <li class="header__list__item hidden"><a href="#hobbies">Hobbies</a></li>
+                <li class="header__list__item hidden"><a href="#formacion">Formación</a></li>
+                <li class="header__list__item hidden"><a href="#xp">Proyectos</a></li>
+                <li class="header__list__item"><a href="#contacto">augusto.floreszegarra@gmail.com</a></li>
             </ul>
         </nav>
     </header>
@@ -39,118 +42,119 @@
                     <li class="presentacion__social__item"><a href="">Github <img src="./assets/img/arrow.png"> </a></li>
                     <li class="presentacion__social__item"><a href="">Linkedin <img src="./assets/img/arrow.png"></a></li>
                     <li class="presentacion__social__item"><a href="">Instagram <img src="./assets/img/arrow.png"></a></li>
-                    <li class="presentacion__social__item"><a href="">Currículo <img src="./assets/img/arrow.png"></a></li>
+                    <li class="presentacion__social__item"><a href="">Currículum <img src="./assets/img/arrow.png"></a></li>
                 </ul>
             </div>
         </section>
 
         <!-- Sección sobre mi -->
-        <section class="biografia" id="sobre-mi">
-            <div class="biografia__container">
-                <h3 class="biografia__titulo">Sobre mi</h3>
-                <p class="biografia__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.  </p>
-                <p class="biografia__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+        <section class="sobre-mi" id="sobre-mi">
+            <div class="sobre-mi__container">
+                <h3 class="sobre-mi__titulo">Sobre mi</h3>
+                <p class="sobre-mi__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.  </p>
+                <p class="sobre-mi__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
             </div>
             <span class="leer-mas"><a href=""><button class="leer-mas__btn">Leer más</button></a></span>
         </section>
+        <!-- Sección de pasatiempos y habilidades blandas -->
+        <section>
+            <!-- Sección de Skills -->
+            <section class="skills" id="skills">
+                <h3 class="skills__titulo">Skills</h3>
+                    <div class="skills__line">
+                        <div class="skills__box">
+                            <ul>
+                                <li class="skills__img"><img src="assets\htlm.png"></li>
+                                <li class="skills__name"> HTML 5</li>
+                            </ul>
+                        </div>
 
-        <!-- Sección de Skills -->
-        <section class="skills" id="skills">
-            <h3 class="skills__titulo">Skills</h3>
-                <div class="skills__line">
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"><img src="assets\htlm.png"></li>
-                            <li class="skills__name"> HTML 5</li>
-                        </ul>
-                    </div>
+                        <div class="skills__box">
+                            <ul>
+                                <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+                                <li class="skills__name">Javascript</li>
+                            </ul>
+                        </div>
 
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
-                            <li class="skills__name">Javascript</li>
-                        </ul>
-                    </div>
+                        <div class="skills__box">
+                            <ul>
+                                <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
+                                <li class="skills__name">PHP</li>
+                            </ul>
+                        </div>
 
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="assets\php_icon.png" alt=""></li>
-                            <li class="skills__name">PHP</li>
-                        </ul>
-                    </div>
+                        <div class="skills__box">
+                            <ul>
+                                <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
+                                <li class="skills__name">Node JS</li>
+                            </ul>
+                        </div>
 
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
-                            <li class="skills__name">Node JS</li>
-                        </ul>
-                    </div>
+                        <div class="skills__box">
+                            <ul>
+                                <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
+                                <li class="skills__name">React</li>
+                            </ul>
+                        </div>
 
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
-                            <li class="skills__name">React</li>
-                        </ul>
-                    </div>
+                        <div class="skills__box">
+                            <ul>
+                                <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
+                                <li class="skills__name">CSS</li>
+                            </ul>
+                        </div>
+                </div>
+            </section>
 
-                    <div class="skills__box">
-                        <ul>
-                            <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
-                            <li class="skills__name">CSS</li>
-                        </ul>
-                    </div>
-            </div>
+            <!-- Sección de Hobbies -->
+            <section class="hobbies" id="hobbies">
+                <h3 class="hobbies__titulo">Hobbies</h3>
+                    <div class="hobbies__line">
+                        <div class="hobbies__box">
+                            <ul>
+                                <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
+                                <li class="hobbies__name"> Patinaje</li>
+                            </ul>
+                        </div>
+
+                        <div class="hobbies__box">
+                            <ul>
+                                <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
+                                <li class="hobbies__name">Tocar bajo</li>
+                            </ul>
+                        </div>
+
+                        <div class="hobbies__box">
+                            <ul>
+                                <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
+                                <li class="hobbies__name">Oir música</li>
+                            </ul>
+                        </div>
+
+                        <div class="hobbies__box">
+                            <ul>
+                                <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
+                                <li class="hobbies__name">Ver séries</li>
+                            </ul>
+                        </div>
+
+                        <div class="hobbies__box">
+                            <ul>
+                                <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
+                                <li class="hobbies__name">Cocinar</li>
+                            </ul>
+                        </div>
+
+                        <div class="hobbies__box">
+                            <ul>
+                                <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
+                                <li class="hobbies__name">Tomar fotos</li>
+                            </ul>
+                        </div>
+                </div>
+            </section>
         </section>
-
-        <!-- Sección de Hobbies -->
-        <section class="hobbies" id="hobbies">
-            <h3 class="hobbies__titulo">Hobbies</h3>
-                <div class="hobbies__line">
-                    <div class="hobbies__box">
-                        <ul>
-                            <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
-                            <li class="hobbies__name"> Patinaje</li>
-                        </ul>
-                    </div>
-
-                    <div class="hobbies__box">
-                        <ul>
-                            <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
-                            <li class="hobbies__name">Tocar bajo</li>
-                        </ul>
-                    </div>
-
-                    <div class="hobbies__box">
-                        <ul>
-                            <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
-                            <li class="hobbies__name">Oir música</li>
-                        </ul>
-                    </div>
-
-                    <div class="hobbies__box">
-                        <ul>
-                            <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
-                            <li class="hobbies__name">Ver séries</li>
-                        </ul>
-                    </div>
-
-                    <div class="hobbies__box">
-                        <ul>
-                            <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
-                            <li class="hobbies__name">Cocinar</li>
-                        </ul>
-                    </div>
-
-                    <div class="hobbies__box">
-                        <ul>
-                            <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
-                            <li class="hobbies__name">Tomar fotos</li>
-                        </ul>
-                    </div>
-            </div>
-        </section>
-
-            <!-- Sección de Formación académica -->
+            <!-- Sección Formaciones y Cursos-->
         <section class="academic" id="formacion">
             <h2 class="academic__titulo" >Formación académica</h2>
             <div class="academic__cursos">
@@ -165,7 +169,7 @@
                 <div class="academic__cursos__box">
                     <ul class="academic__cursos__list">
                         <!--formacion frecodecamp -->
-                        <li class="academic__cursos__item__img"><img src="./assets/img/FreeCodeCamp_logo.svg.png"></li>
+                        <li class="academic__cursos__item__img"><img src="./asset s/img/FreeCodeCamp_logo.svg.png"></li>
                         <li class="academic__cursos__item__titulo"><h4>Formación en JS</h4></li>
                         <li class="academic__cursos__item__subtitulo"><p>2023 - FreeCodeCamp</p></li>
                     </ul>
@@ -173,7 +177,7 @@
                 <div class="academic__cursos__box">
                     <ul class="academic__cursos__list">
                         <!--formacion frecodecamp -->
-                        <li class="academic__cursos__item__img"><img src="./assets/img/FreeCodeCamp_logo.svg.png"></li>
+                        <li class="academic__cursos__item__img"><img src="./asset s/img/FreeCodeCamp_logo.svg.png"></li>
                         <li class="academic__cursos__item__titulo"><h4>Formación en JS</h4></li>
                         <li class="academic__cursos__item__subtitulo"><p>2023 - FreeCodeCamp</p></li>
                     </ul>
@@ -181,7 +185,7 @@
             </div>
         </section>
 
-        <!-- Sección de Experiencia Profesional/Proyectos-->
+        <!-- Sección de experiencia en programación-->
         <section class="experience" id="xp">
             <h2 class="experience__section__titulo" >Experiencia Profissional</h2>
             <div class="experiencie__box">
@@ -238,7 +242,7 @@
                         </div>
             </div>
 
-            <!-- Sección de Contacto -->
+            <!-- Formulario de contacto -->
             <section class="formcontato" id="contacto">
                 <div  class="formcontato__contacto">
                     <div class="formcontato--esquerda">
@@ -260,6 +264,7 @@
             </section>
         </section>
     </main>
+    <!-- Rodapié -->
     <footer class="footer">
         <div class="footer__rodape">
             <p>Desarrollado por Augusto Flores</p>
