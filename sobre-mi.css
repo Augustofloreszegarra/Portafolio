@@ -1,0 +1,43 @@
+.sobre-mi {
+    padding: 0 1rem;
+    height: 50vh;
+}
+
+.sobre-mi__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sobre-mi__titulo {
+
+}
+
+.sobre-mi__parrafo {
+
+}
+
+
+
+
+
+/* ----------------------------Parte responsiva---------------------------- */
+@media screen and (min-width: 420px) {
+    
+}
+
+@media screen and (min-width: 576px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}

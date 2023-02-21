@@ -1,0 +1,68 @@
+/* contenedor principal */
+.presentacion {
+    height: 50vh;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    align-items: center;
+}
+/* logo de desarrollador */
+.presentacion__img {
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+    margin: 1.3rem 0;
+}
+/* contenedor de la info de la presentacion y enlaces a redes sociales */
+.presentacion__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+/* informacion de la presentacion h2 y h3 respectivamente */
+.presentacion__bio {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.presentacion__bio2 {
+    font-size: .95rem;
+    font-weight: 400;
+}
+/* enlaces a redes sociales */
+.presentacion__social {
+    display: flex;  
+    justify-content: space-between;
+    text-align: center;
+}
+
+.presentacion__social__item {
+    list-style: none;
+}
+
+.presentacion__social__item a {
+    text-decoration: none;
+}
+/* ----------------------------Parte responsiva---------------------------- */
+@media screen and (min-width: 420px) {
+    .presentacion {
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}

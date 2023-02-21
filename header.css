@@ -1,3 +1,9 @@
+/* etiqueta principal del menu  */
+header {
+    background: #fafafa;
+    justify-content: center;
+}
+/* contenedor de los items del menu */
 .header {
     display: flex;
     flex-direction: row;
@@ -9,7 +15,7 @@
     padding-top: .7rem;
     padding-bottom: .7rem;
     font-size: .75rem;
-    background: #333;
+    max-width: 1400px;
 }
 
 /* logo+nombre */
@@ -23,27 +29,63 @@
     height: 1rem;
     padding-left: .5rem;
     padding-right: .5rem;
-    color: #fafafa;
 }
-
+/* contenedor de los elementos del menu */
 .header__list {
-    display: block;
+    display: flex;
 }
 
 .header__list__item {
-    font-size: 1.1rem;
     display: inline-block;
     margin-right: .7rem;
     margin-bottom: .7rem;
     margin-left: .7rem;
-    font-size: .75rem;
     padding-top: .75rem;
 }
 
 .header__list__item a {
     text-decoration: none;
 }
-
+/* elementos a ocultar en el movil-first */
 .header__list__item.hidden {
     display: none;
+}
+/* ----------------------------Parte responsiva---------------------------- */
+@media screen and (min-width: 420px) {
+    .header {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .header {
+        font-size: 1.1rem;
+        height: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        font-size: .9rem;
+    }
+    .header__nombre {
+        font-size: .7rem;
+        width: 23vw;
+    }
+    .header__list__item.hidden {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header {
+        font-size: 1rem;
+    }
+    .header__nombre {
+        width: 35vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
 }
