@@ -1,18 +1,10 @@
-<<<<<<< HEAD
 /* etiqueta principal del menu  */
 header {
     background: #fafafa;
-    justify-content: center;
-}
-/* contenedor de los items del menu */
-=======
-header {
-    background: #333;
     display: flex;
     justify-content: center;
 }
-
->>>>>>> c67c019f1c314077d4041741e688fd01dc58d329
+/* contenedor de los items del menu */
 .header {
     display: flex;
     flex-direction: row;
@@ -59,11 +51,7 @@ header {
 .header__list__item.hidden {
     display: none;
 }
-<<<<<<< HEAD
 /* ----------------------------Parte responsiva---------------------------- */
-=======
-
->>>>>>> c67c019f1c314077d4041741e688fd01dc58d329
 @media screen and (min-width: 420px) {
     .header {
         font-size: .9rem;
@@ -83,10 +71,7 @@ header {
     }
     .header__nombre {
         font-size: .7rem;
-<<<<<<< HEAD
         width: 23vw;
-=======
->>>>>>> c67c019f1c314077d4041741e688fd01dc58d329
     }
     .header__list__item.hidden {
         display: block;
