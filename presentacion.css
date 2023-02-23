@@ -1,7 +1,6 @@
 /* contenedor principal */
 .presentacion {
     height: 50vh;
-    background: #fafafa;
     display: flex;
     flex-direction: column;
     padding: 0 1rem;
