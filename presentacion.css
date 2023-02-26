@@ -42,6 +42,18 @@
 .presentacion__social__item a {
     text-decoration: none;
 }
+
+.dividir {
+    border: 0;
+    position: relative;
+    width: 100%;
+    display: block;
+    width: 2rem;
+    border-top: solid 3px #FFE91F;
+    height: 3px;
+}
+
+
 /* ----------------------------Parte responsiva---------------------------- */
 @media screen and (min-width: 420px) {
     .presentacion {

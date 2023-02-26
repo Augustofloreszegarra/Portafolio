@@ -18,14 +18,17 @@
 }
 
 .leer-mas {
-    display: inline-block;
-    padding-top: 1rem;
+    width: 100%;
+    height: 4rem;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .leer-mas__btn {
     align-items: center;
-    background-color: initial;
-    background-image: linear-gradient(rgba(201, 152, 132, 0.84), rgba(57, 31, 91, .84) 50%);
+    background-image: linear-gradient(rgba(192, 190, 43, 0.84), rgba(255, 234, 0.582) 50%);
     border-radius: 42px;
     border-width: 0;
     box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
@@ -37,9 +40,9 @@
     font-weight: 700;
     justify-content: center;
     letter-spacing: .04em;
-    line-height: 16px;
+    line-height: 1rem;
     margin: 0;
-    padding: 18px 18px;
+    padding: 10px 18px;
     text-align: center;
     text-decoration: none;
     user-select: none;
