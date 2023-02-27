@@ -4,4 +4,34 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* color: #fafafa; */
+    list-style: none;
+}
+
+body {
+    height: 100%;
+    left: 0;
+    top: 0;
+    min-height: 100vh;
+    min-width: 320px;
+    /* line-height: 1;
+    word-wrap: break-word;
+    background-image: url("./assets/img/fondo.svg"), linear-gradient(45deg, #2b1717 0%, #55574a 150%);
+    background-size: 100% 150%, auto;
+    background-position: center, 0% 0%;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    pointer-events: none;    
+    background-attachment: fixed;
+    animation-iteration-count: infinite; */
+}
+
+.container {
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container > * {
+    max-width: 1440px;
 }

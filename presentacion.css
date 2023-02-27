@@ -1,10 +1,8 @@
 /* contenedor principal */
 .presentacion {
-    height: 48vh;
-    background: #fafafa;
+    height: 50vh;
     display: flex;
     flex-direction: column;
-    padding: 0 1rem;
     align-items: center;
 }
 /* logo de desarrollador */
@@ -44,6 +42,18 @@
 .presentacion__social__item a {
     text-decoration: none;
 }
+
+.dividir {
+    border: 0;
+    position: relative;
+    width: 100%;
+    display: block;
+    width: 2rem;
+    border-top: solid 3px #FFE91F;
+    height: 3px;
+}
+
+
 /* ----------------------------Parte responsiva---------------------------- */
 @media screen and (min-width: 420px) {
     .presentacion {

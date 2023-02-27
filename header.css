@@ -1,9 +1,3 @@
-/* etiqueta principal del menu  */
-header {
-    background: #fafafa;
-    display: flex;
-    justify-content: center;
-}
 /* contenedor de los items del menu */
 .header {
     display: flex;
@@ -16,7 +10,6 @@ header {
     padding-top: .7rem;
     padding-bottom: .7rem;
     font-size: .75rem;
-    max-width: 1400px;
 }
 
 /* logo+nombre */
@@ -26,10 +19,10 @@ header {
     width: 50vw;
 }
 
-.header__nombre img {
+.header__nombre > img {
     height: 1rem;
-    padding-left: .5rem;
-    padding-right: .5rem;
+    fill: aqua;
+    filter: saturate(0.5) hue-rotate(180deg);
 }
 /* contenedor de los elementos del menu */
 .header__list {
