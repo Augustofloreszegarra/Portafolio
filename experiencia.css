@@ -1,13 +1,23 @@
 .experiencie__container {
-
+    background-color: #fafafa;
 }
 
 .experiencie {
-
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    text-align: center;
 }
 
 .experiencie__titulo {
-
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #464646;
 }
 
 .experiencie__box {
@@ -41,12 +51,24 @@
 .experiencie__box__info__btn__links {
 
 }
-.dividir {
-    border: 0;
-    position: relative;
-    width: 100%;
-    display: block;
-    width: 2rem;
-    border-top: solid 3px #FFE91F;
-    height: 3px;
+
+/* ----------------------------Parte responsiva---------------------------- */
+@media screen and (min-width: 420px) {
+
+}
+
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+    
 }

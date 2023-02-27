@@ -1,37 +1,84 @@
 .formacion__container {
-
+    background-color: #EAF2FD;
 }
 
 .formacion {
-
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    text-align: center;
 }
 
 .formacion__titulo {
-
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #464646;
 }
 
 .formacion__cursos {
-
+    text-align: start;
 }
 
 .formacion__cursos__box {
-
+    padding-bottom: 2rem;
 }
 
 .formacion__cursos__list {
-    
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
 
 .formacion__cursos__item__img {
+    display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+}
 
+.formacion__cursos__item__img img {
+    width: 30%;
+    margin: auto auto;
+    padding: 2.19rem 0;
 }
 
 .formacion__cursos__item__title {
-    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.3rem;
 }
 
 .formacion__cursos__item__subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1rem;
+}
+
+/* ----------------------------Parte responsiva---------------------------- */
+@media screen and (min-width: 420px) {
 
 }
 
+@media screen and (min-width: 576px) {
 
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
