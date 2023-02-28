@@ -1,5 +1,5 @@
 .formacion__container {
-    background-color: #EAF2FD;
+    background-color: rgba(217, 208, 193, .3);
 }
 
 .formacion {
@@ -17,7 +17,7 @@
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.8rem;
-    color: #464646;
+    color: #fafafa;
 }
 
 .formacion__cursos {
@@ -37,7 +37,12 @@
 .formacion__cursos__item__img {
     display: flex;
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: rgb(214, 200, 178);
+    opacity: 0.6;
+}
+
+.formacion__cursos__item__img:hover {
+    opacity: 1;
 }
 
 .formacion__cursos__item__img img {
