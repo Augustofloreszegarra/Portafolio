@@ -1,0 +1,17 @@
+footer {
+    max-height: 102px;
+}
+
+.footer {
+    height: 100%;
+}
+
+.footer__rodape {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+
