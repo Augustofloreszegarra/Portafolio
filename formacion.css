@@ -77,7 +77,15 @@
 }
 
 @media screen and (min-width: 768px) {
-    
+    .formacion__cursos {
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .formacion__cursos__box {
+        width: 28%;
+    }
 }
 
 @media screen and (min-width: 992px) {

@@ -109,7 +109,28 @@
 }
 
 @media screen and (min-width: 992px) {
-
+    .experiencie__box {
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .experiencie__box__order {
+        order: 2;
+    }
+    .experiencie__box__img {
+        width: 48%;
+    }
+    .experiencie__box__info {
+        width: 48%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .experiencie__box__info__titulo {
+        font-size: 1.5rem;
+    }
+    .experiencie__box__info__text {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {

@@ -52,3 +52,30 @@
     font-size: 16px;
     line-height: 19px;
 }
+
+@media screen and (min-width: 420px) {
+    
+}
+
+@media screen and (min-width: 576px) {
+    .skills__box, .hobbies__box {
+        width: 25vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skills-hobbies {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+    .skills__box, .hobbies__box {
+        width: 176px;
+        height: 174px;
+    }
+}

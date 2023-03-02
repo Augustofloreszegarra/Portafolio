@@ -1,5 +1,9 @@
+.sobre-mi__container {
+    max-height: 350px;
+}
+
 .sobre-mi {
-    height: 50vh;
+    height: 100%;
 }
 
 .sobre-mi__info {
@@ -67,11 +71,27 @@
 }
 
 @media screen and (min-width: 768px) {
-    
+    .sobre-mi__container {
+        max-height: 400;
+    }
+    .sobre-mi__titulo {
+        font-size: 1.5rem;
+    }
+    .sobre-mi__parrafo {
+        font-size: .9rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
-    
+    .sobre-mi__container {
+        max-height: 500;
+    }
+    .sobre-mi__titulo {
+        font-size: 3rem;
+    }
+    .sobre-mi__parrafo {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {

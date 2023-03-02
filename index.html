@@ -56,7 +56,7 @@
                 <img class="presentacion__img" src="./assets/img/selfie.jfif" alt="imagen de autor del portafolio">
                 <div class="presentacion__info">
                     <h2 class="presentacion__bio">Hola, mi nombre es Augusto Flores y construyo paginas web</h2>
-                    <h3 class="presentacion__bio2">Soy formado en Alura Latam y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                    <h3 class="presentacion__bio2">Soy formado en desarrollo de paginas web y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                     <ul class="presentacion__social">
                         <li class="presentacion__social__item"><a href="">Github <img src="./assets/img/arrow.png"> </a></li>
                         <li class="presentacion__social__item"><a href="">Linkedin <img src="./assets/img/arrow.png"></a></li>
@@ -226,7 +226,7 @@
     
                 <div class="experiencie__box">
                     <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
-                    <img class="experiencie__box__img" src="./assets/img/juegoCreado.png">
+                    <img class="experiencie__box__img experiencie__box__order" src="./assets/img/juegoCreado.png">
                     <div class="experiencie__box__info">
                         <h2 class="experiencie__box__info__titulo">Juego creado con HTML y JavaScript</h2>
                         <h3 class="experiencie__box__info__text">Challenge Oracle </h3>
@@ -251,7 +251,7 @@
                 </div>  
     
                 <div class="experiencie__box">
-                    <img class="experiencie__box__img" src="./assets/img/juegoCreado2.png">
+                    <img class="experiencie__box__img experiencie__box__order" src="./assets/img/juegoCreado2.png">
                     <div class="experiencie__box__info">
                         <h2 class="experiencie__box__info__titulo">Juego creado con HTML, CSS y JavaScript</h2>
                         <h3 class="experiencie__box__info__text">Challenge Oracle </h3>
@@ -267,22 +267,26 @@
         <!-- Formulario de contacto -->
         <section class="contacto__container container">
             <div class="contacto">
-                <h2 class="contacto__titulo">Contacto</h2>
-                <p class="contacto__texto">¿Quieres contactarme?
+                <img src="./assets/img/logoMensaje.svg" alt="imagen de un sobre" class="contacto__img-mensaje">
+                <div class="contacto__form">
+                    <h2 class="contacto__form__titulo">Contacto</h2>
+                    <p class="contacto__form__texto">¿Quieres contactarme? <br>
                     Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.</p>
-                <form action="" class="contacto__formulario">
-                    <div class="contacto__formulario__contenedor">
-                        <label for="">Nombre</label>
-                        <input type="text" placeholder="Nombre">
-                    </div>
-                    <div class="contacto__formulario__contenedor">
-                        <label for="">E-mail</label>
-                        <input type="email" placeholder="E-mail">
-                    </div>
-                    <input type="text" placeholder="Asunto">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button type="submit">Enviar Mensaje</button>
-                </form>
+                    <form action="" class="contacto__form__formulario">
+                        <div class="contacto__form__formulario__contenedor">
+                            <label for="">Nombre</label>
+                            <input type="text" placeholder="Nombre">
+                        </div>
+                        <div class="contacto__form__formulario__contenedor">
+                            <label for="">E-mail</label>
+                            <input type="email" placeholder="E-mail">
+                        </div>
+                        <input type="text" placeholder="Asunto">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button type="submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+                
             </div>
         </section>
 

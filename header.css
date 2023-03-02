@@ -53,30 +53,24 @@
 
 @media screen and (min-width: 576px) {
     .header {
-        font-size: 1.1rem;
+        font-size: 1rem;
         height: 3rem;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .header {
-        font-size: .9rem;
-    }
     .header__nombre {
-        font-size: .7rem;
-        width: 23vw;
-    }
-    .header__list__item.hidden {
-        display: block;
+        font-size: 1rem;
+        width: 30vw;
     }
 }
 
 @media screen and (min-width: 992px) {
-    .header {
-        font-size: 1rem;
-    }
     .header__nombre {
-        width: 35vw;
+        width: 32vw;
+    }
+    .header__list__item.hidden {
+        display: block;
     }
 }
 
