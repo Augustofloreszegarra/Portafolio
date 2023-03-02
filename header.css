@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 992px) {
     .header__nombre {
-        width: 32vw;
+        width: 30vw;
     }
     .header__list__item.hidden {
         display: block;
