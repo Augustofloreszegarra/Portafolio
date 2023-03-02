@@ -46,15 +46,10 @@
 }
 
 .skills__name, .hobbies__name {
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
-}
-
-@media screen and (min-width: 420px) {
-    
 }
 
 @media screen and (min-width: 576px) {
@@ -67,10 +62,6 @@
     .skills-hobbies {
         margin-top: 2rem;
     }
-}
-
-@media screen and (min-width: 992px) {
-
 }
 
 @media screen and (min-width: 1200px) {

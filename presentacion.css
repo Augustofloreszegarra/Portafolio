@@ -1,6 +1,7 @@
 /* contenedor principal */
 .presentacion__container {
-    max-height: 350px;
+    height: 100%;
+    padding-bottom: 2rem;
 }
 .presentacion {
     height: 100%;
@@ -60,19 +61,22 @@
 /* ----------------------------Parte responsiva---------------------------- */
 @media screen and (min-width: 420px) {
     .presentacion {
-        height: 40vh;
+        max-height: 320px;
     }
 }
 
 @media screen and (min-width: 576px) {
-    
+    .presentacion {
+        max-height: 300px;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .presentacion__container {
-        max-height: 300px;
+        padding-bottom: 1rem;
     }
     .presentacion {
+        max-height: 180px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -94,10 +98,13 @@
 
 @media screen and (min-width: 992px) {
     .presentacion__container {
-        max-height: 400px;
+        max-height: 500px;
+    }
+    .presentacion {
+        height: 500px;
     }
     .presentacion__bio {
-        font-size: 3.25rem;
+        font-size: 2rem;
     }
     .presentacion__bio2 {
         font-size: 1.5rem;
@@ -106,8 +113,4 @@
         width: 18.5rem;
         height: 18.5rem;
     }
-}
-
-@media screen and (min-width: 1200px) {
-    
 }

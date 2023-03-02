@@ -11,7 +11,6 @@
 }
 
 .experiencie__titulo {
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 1.5rem;
@@ -46,7 +45,6 @@
 }
 
 .experiencie__box__info__titulo {
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
@@ -54,7 +52,6 @@
 }
 
 .experiencie__box__info__text {
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -96,18 +93,6 @@
 }
 
 /* ----------------------------Parte responsiva---------------------------- */
-@media screen and (min-width: 420px) {
-
-}
-
-@media screen and (min-width: 576px) {
-
-}
-
-@media screen and (min-width: 768px) {
-    
-}
-
 @media screen and (min-width: 992px) {
     .experiencie__box {
         flex-direction: row;
@@ -131,8 +116,4 @@
     .experiencie__box__info__text {
         font-size: 1rem;
     }
-}
-
-@media screen and (min-width: 1200px) {
-    
 }

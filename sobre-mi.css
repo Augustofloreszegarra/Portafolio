@@ -39,7 +39,6 @@
     color: #FFFFFF;
     cursor: pointer;
     display: flex;
-    font-family: Quicksand,sans-serif;
     font-size: 18px;
     font-weight: 700;
     justify-content: center;
@@ -62,14 +61,6 @@
 
 
 /* ----------------------------Parte responsiva---------------------------- */
-@media screen and (min-width: 420px) {
-    
-}
-
-@media screen and (min-width: 576px) {
-    
-}
-
 @media screen and (min-width: 768px) {
     .sobre-mi__container {
         max-height: 400;
@@ -87,13 +78,9 @@
         max-height: 500;
     }
     .sobre-mi__titulo {
-        font-size: 3rem;
-    }
-    .sobre-mi__parrafo {
         font-size: 2rem;
     }
-}
-
-@media screen and (min-width: 1200px) {
-    
+    .sobre-mi__parrafo {
+        font-size: 1.5rem;
+    }
 }

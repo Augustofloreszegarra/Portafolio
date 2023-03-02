@@ -1,13 +1,5 @@
-/* Fonts recomendadas:
-Source Sans Pro 
-Roboto condensed
-Roboto
-Montserrat
-*/
-
 * {
-    /* font-family: 'Source Sans Pro', sans-serif; */
-    font-family: "Inter";
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     box-sizing: border-box;
     margin: 0;
