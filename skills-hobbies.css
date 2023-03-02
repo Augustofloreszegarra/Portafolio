@@ -41,6 +41,10 @@
     border-radius: 15px;
 }
 
+.skills__box:hover, .hobbies__box:hover {
+    background: rgba(207, 207, 195, 0.2);
+}
+
 .skills__img, .hobbies__img {
     width: 28px;
 }
