@@ -73,3 +73,7 @@
         display: block;
     }
 }
+.header__container {
+    position: sticky;
+    top: 10px;
+}
