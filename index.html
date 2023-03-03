@@ -273,22 +273,29 @@
                     Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.</p>
                     <form action="" class="contacto__form__formulario">
                         <div class="contacto__form__formulario__contenedor">
-                            <label for="">Nombre</label>
-                            <input type="text" placeholder="Nombre">
+                            <label for="formNombre">Nombre</label>
+                            <input id="formNombre" type="text" placeholder="Nombre" required>
+                            <div id="mensajeErrorNombre"></div>
                         </div>
                         <div class="contacto__form__formulario__contenedor">
                             <label for="">E-mail</label>
-                            <input type="email" placeholder="E-mail">
+                            <input id="formEmail" type="email" placeholder="E-mail" required>
+                            <div id="mensajeErrorEmail"></div>
                         </div>
-                        <input type="text" placeholder="Asunto">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                        <button type="submit">Enviar Mensaje</button>
+                        <div class="contacto__form__formulario__contenedor">
+                            <input id="formAsunto" type="text" placeholder="Asunto" >
+                            <div id="mensajeErrorAsunto"></div>
+                        </div>
+                        <div class="contacto__form__formulario__contenedor">
+                            <textarea name="" id="formTextarea" cols="30" rows="10" placeholder="Mensaje" ></textarea>
+                            <div id="mensajeErrorTextarea"></div>
+                        </div>
+                        <button id="formEnviar" type="submit">Enviar Mensaje</button>
                     </form>
                 </div>
-                
             </div>
         </section>
-
+        <script src="./script.js"></script>
     </main>
     <!-- Rodapié -->
     <footer>

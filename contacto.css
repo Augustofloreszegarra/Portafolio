@@ -62,8 +62,9 @@
 .contacto__form__formulario__contenedor input{
    border: none;
    padding: 0 5px;
-   font-size: 1.6rem;
+   font-size: 1rem;
    font-weight: 400;
+   height: 1.5rem;
 }
 
 .contacto__form__formulario input, .contacto__form__formulario textarea {
@@ -79,7 +80,7 @@
 }
 
 .contacto__form__formulario input:nth-child(3)::placeholder{
-   font-style: 1rem;
+    font-size: 1rem;
    font-weight: 400;
 }
 
