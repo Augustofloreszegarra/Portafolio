@@ -114,3 +114,7 @@
         height: 11.5rem;
     }
 }
+
+main {
+    margin-top: .5rem !important;
+}

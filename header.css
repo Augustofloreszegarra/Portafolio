@@ -1,4 +1,9 @@
 /* contenedor de los items del menu */
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #2b1b1b;
+}
 .header {
     display: flex;
     flex-direction: row;
@@ -72,8 +77,4 @@
     .header__list__item.hidden {
         display: block;
     }
-}
-.header__container {
-    position: sticky;
-    top: 10px;
 }
