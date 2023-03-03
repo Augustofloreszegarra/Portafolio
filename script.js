@@ -79,8 +79,7 @@ formTextarea.addEventListener('input', function() {
     }
 });
 
-function deshabilitarBtnEnviar () {
-
+formEnviar.addEventListener('click', function() {
     let inputLengthNombre = formNombre.value.length;
     let inputLengthEmail = formEmail.value.length;
     let inputLengthAsunto = formAsunto.value.length;
@@ -91,4 +90,4 @@ function deshabilitarBtnEnviar () {
     } else {
         alert('Formulario enviado correctamente');
     }
-};
+});
